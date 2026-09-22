@@ -83,7 +83,15 @@ The original diversified core and 60/40 benchmark cover 2011–2025. New strateg
 
 ## Interpretation
 
-The diversified mix trades some equity upside for exposure to bonds, gold, real estate, and short Treasuries. Compare CAGR together with volatility and drawdown; a higher return alone does not establish a better fit for a moderate-risk client. The 2022 stock/bond selloff is a useful stress test, while 2020 and 2021 show different market conditions. Gold and REITs can also experience substantial losses, and correlations change over time.
+The results show that the highest return, the lowest volatility, and the smallest drawdown came from different portfolios. Over the full 2011–2025 period, the diversified core returned 8.51% annually versus 9.18% for the 60/40 benchmark, with almost identical volatility. Diversification across more asset classes therefore did not deliver a clear performance advantage over that entire sample. In the shared 2015–2025 comparison, both returned approximately 8.65% annually, while the core had slightly lower volatility and a marginally smaller maximum drawdown.
+
+Adding 5% Bitcoin increased annualized return to 11.98% and produced the highest Sharpe ratio in the comparison at 1.10, using the stated 0% risk-free assumption. That improvement came with higher volatility and a deeper maximum drawdown of 22.17%, compared with 20.36% for the core. The Bitcoin variant also had fewer positive months. Its historical advantage depends on the selected period and on repeatedly rebalancing Bitcoin back to 5%; it does not establish that the same benefit would persist in future markets.
+
+The technology-heavy portfolio generated the highest annualized return, 16.50%, but also the highest volatility, 15.76%, and the deepest maximum drawdown, 27.94%. Its 24.77% loss in 2022 illustrates the downside of concentrated exposure, alongside strong gains such as 39.33% in 2023. This strategy increased both the opportunity for growth and the size of losses the hypothetical client would have needed to tolerate.
+
+The dividend-focused portfolio returned 8.37% annually and had the smallest maximum drawdown, 16.56%. It also held up best in 2022, losing 4.41%. However, its volatility was higher than the core's and its Sharpe ratio was the lowest of the five portfolios at 0.78. A smaller worst drawdown did not translate into lower volatility or a higher risk-adjusted return. These figures include reinvested distributions and do not measure cash income, dividend yield, or the reliability of future payments.
+
+For the hypothetical client, these comparisons frame a discussion about growth objectives and tolerance for losses. The core had the highest share of positive months, while the technology portfolio delivered much greater cumulative growth despite fewer winning months; the size of gains and losses matters as well as their frequency. Strategy comparisons should use the shared 2015–2025 window, and maximum drawdown should be read as an observed month-end loss rather than a limit on future losses. The results describe the selected assets and historical period, with the cost, tax, and measurement assumptions stated above.
 
 ## Data and reproducibility
 
