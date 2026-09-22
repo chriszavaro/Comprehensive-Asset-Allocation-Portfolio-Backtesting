@@ -59,6 +59,34 @@ The technology portfolio had the highest historical return and the deepest drawd
 
 To rerun the comparison, install `requirements.txt` in your Python environment and open `scenario_comparison.ipynb` from this project folder. The calculation module can also be run directly with `python scenario_comparison.py`. The notebook contains growth, drawdown, annual-return, and risk/return charts and does not overwrite the existing CSVs. Data sources and fund descriptions: [Yahoo Finance BTC-USD history](https://finance.yahoo.com/quote/BTC-USD/history/), [Schwab SCHD profile](https://www.schwabassetmanagement.com/products/schd), [Vanguard ETF list for VGT and VYM](https://investor.vanguard.com/investment-products/list/etfs).
 
+## Portfolio charts
+
+These charts compare all five portfolios over **January 2015–December 2025**, using the same $10,000 starting investment and monthly rebalancing as the scenario results. They are saved outputs from the [scenario notebook](scenario_comparison.ipynb).
+
+### Growth of $10,000
+
+![Growth of $10,000 across the diversified core, Bitcoin, technology, dividend, and 60/40 portfolios](assets/charts/growth.png)
+
+The technology portfolio accumulated the most wealth, followed by the core with 5% Bitcoin. Compare these gains with the losses and volatility shown below.
+
+### Drawdowns
+
+![Percentage declines from previous month-end peaks for all five portfolios](assets/charts/drawdowns.png)
+
+The technology portfolio experienced the deepest month-end drawdown. The dividend-focused portfolio had the smallest maximum drawdown in this sample; these observations do not set a limit on future losses.
+
+### Annual returns
+
+![Heatmap of calendar-year returns for each portfolio from 2015 through 2025](assets/charts/annual-returns.png)
+
+The heatmap shows how leadership changed across years. In 2022, every portfolio lost value, with the dividend-focused strategy declining the least. Exact percentages appear in the annual returns table below.
+
+### Return and volatility
+
+![Scatter plot comparing annualized return with annualized volatility for the five portfolios](assets/charts/risk-return.png)
+
+The technology portfolio paired the highest CAGR with the highest volatility. The Bitcoin variant increased both return and volatility relative to the diversified core.
+
 ## Annual returns
 
 The original diversified core and 60/40 benchmark cover 2011–2025. New strategy columns begin in 2015, the shared comparison period required by the Bitcoin history. A dash means the strategy was not evaluated for that year in this comparison.
