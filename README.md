@@ -45,13 +45,15 @@ Adjusted monthly closes from Yahoo Finance, December 2010–December 2025. Retur
 
 The [scenario notebook](scenario_comparison.ipynb) compares five portfolios over the **same January 2015–December 2025 window** (132 monthly returns). This shorter period accommodates Bitcoin price history. Each starts at $10,000 and is rebalanced monthly. The original 2011–2025 analysis above remains unchanged; its ending values should not be compared directly with the 2015–2025 values below.
 
-| Portfolio | CAGR | Volatility | Max month-end drawdown | Ending $10,000 |
-|---|---:|---:|---:|---:|
-| Diversified core | 8.65% | 9.84% | -20.36% | $24,915 |
-| Core + 5% Bitcoin | 11.98% | 10.86% | -22.17% | $34,703 |
-| Technology heavy | 16.50% | 15.76% | -27.94% | $53,627 |
-| Dividend focus | 8.37% | 11.08% | -16.56% | $24,215 |
-| 60/40 benchmark | 8.65% | 10.18% | -20.66% | $24,899 |
+| Portfolio | CAGR | Volatility | Sharpe (0% RF) | Max month-end drawdown | Positive months | Ending $10,000 |
+|---|---:|---:|---:|---:|---:|---:|
+| Diversified core | 8.65% | 9.84% | 0.90 | -20.36% | 68.18% | $24,915 |
+| Core + 5% Bitcoin | 11.98% | 10.86% | 1.10 | -22.17% | 66.67% | $34,703 |
+| Technology heavy | 16.50% | 15.76% | 1.05 | -27.94% | 64.39% | $53,627 |
+| Dividend focus | 8.37% | 11.08% | 0.78 | -16.56% | 64.39% | $24,215 |
+| 60/40 benchmark | 8.65% | 10.18% | 0.87 | -20.66% | 67.42% | $24,899 |
+
+Sharpe uses a 0% risk-free rate; positive months is the share of the 132 months with a return above zero.
 
 The technology portfolio had the highest historical return and the deepest drawdown. Adding 5% Bitcoin raised historical CAGR but also volatility and maximum drawdown. The dividend-focused portfolio had the smallest maximum month-end drawdown in this sample; its adjusted-price results measure **total return with dividends reinvested**, not cash dividend income or yield. These allocations are illustrative and were not optimized. Bitcoin trades continuously whereas ETFs trade on exchange days, so monthly observations are not perfectly synchronized.
 
